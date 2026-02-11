@@ -1,4 +1,4 @@
-package comFacturaFacil.FacturaFacil.model;
+package com.facturafacil.model.model;
 import java.time.LocalDate;
 
 public class Empresa {

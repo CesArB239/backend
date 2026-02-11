@@ -1,5 +1,4 @@
-package comFacturaFacil.FacturaFacil.model;
-
+package com.facturafacil.model.model;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 

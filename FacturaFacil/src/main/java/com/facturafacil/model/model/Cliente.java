@@ -1,4 +1,4 @@
-package comFacturaFacil.FacturaFacil.model;
+package com.facturafacil.model.model;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -11,7 +11,7 @@ public class Cliente {
     private Long idRuta;
     private String Nombre;
     private String nif;
-    private String dirección;
+    private String direccion;
     private String telefono;
     private String email;
     private BigDecimal limiteCredito;
@@ -75,12 +75,12 @@ public class Cliente {
         this.nif = nif;
     }
 
-    public String getDirección() {
-        return dirección;
+    public String getDireccion() {
+        return direccion;
     }
 
-    public void setDirección(String dirección) {
-        this.dirección = dirección;
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
     }
 
     public String getTelefono() {
@@ -141,7 +141,7 @@ public class Cliente {
                 ", idRuta=" + idRuta +
                 ", Nombre='" + Nombre + '\'' +
                 ", nif='" + nif + '\'' +
-                ", dirección='" + dirección + '\'' +
+                ", direccion='" + direccion + '\'' +
                 ", telefono='" + telefono + '\'' +
                 ", email='" + email + '\'' +
                 ", limiteCredito=" + limiteCredito +
